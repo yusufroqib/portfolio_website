@@ -1232,6 +1232,8 @@
 
 /************************** FOR 580PX SCREEN ***********************************/
 @media (max-width: 580px) {
+
+  /* MENU BUTTON SETTING FOR NAV */
   .visibleBtn .contactBtn {
     display: none;
   }
@@ -1246,6 +1248,7 @@
     font-size: 14px;
   }
 
+  /* HERO SECTION */
   .heroSection {
     padding-bottom: 1rem;
   }
@@ -1283,6 +1286,7 @@
     display: none;
   }
 
+  /* ABOUT SECTION */
   .aboutSection {
     height: 25rem;
   }
@@ -1291,7 +1295,6 @@
     flex-direction: column;
     padding: 3rem 0 0;
     gap: 1rem;
-    /* place-items: center; */
     justify-content: center;
     position: relative;
   }
@@ -1354,6 +1357,7 @@
     width: auto;
   }
 
+  /* HOW I BUILD YOUR PROJECT SECTION */
   .skillDetails {
     flex-direction: column;
     gap: 1rem;
@@ -1461,7 +1465,6 @@
 
   .progressBox hr {
     margin-top: 0.5rem;
-    /* border: 0.5px solid black; */
   }
 
   .progressPercent {
@@ -1492,6 +1495,7 @@
     letter-spacing: 0.01875rem;
   }
 
+  /* MY PROJECT LIST SECTION */
   .myProjects#projects {
     height: 19rem;
     background-image: none;
@@ -1501,6 +1505,7 @@
     font-size: 1.6rem;
   }
 
+  /* FOOTER SECTION */
   footer {
     height: 50rem;
   }
@@ -1552,7 +1557,6 @@
     align-items: center;
     gap: 0.5rem;
     border-radius: 1.5rem;
-    /* background: linear-gradient(214deg, #B75CFF 0%, #671AE4 100%); */
     background-image: linear-gradient(
       to right,
       #b75cff,
@@ -1560,7 +1564,6 @@
       #6b8dd6,
       #8e37d7
     );
-    /* box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75); */
     background-size: 300% 100%;
     cursor: pointer;
   }
@@ -1592,10 +1595,13 @@
 
 /********************** FOR 420PX AND SMALL SCREENS *****************************/
 @media (max-width: 420px) {
+  /* HEADER SECTION  */
   .header {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  /* HERO SECTION */
   .heroSection {
     padding-bottom: 0rem;
   }
@@ -1616,6 +1622,7 @@
     margin-top: 1rem;
   }
 
+  /* ABOUT SECTION  */
   .aboutSection {
     height: 20.5rem;
   }
@@ -1624,7 +1631,6 @@
     flex-direction: column;
     padding: 2rem 0 0;
     gap: 0.5rem;
-    /* place-items: center; */
     justify-content: center;
     position: relative;
   }
@@ -1680,6 +1686,7 @@
     width: auto;
   }
 
+  /* HOW I BUILD YOUR PROJECT SECTION */
   .skillDetails {
     flex-direction: column;
     gap: 1rem;
@@ -1750,6 +1757,7 @@
     margin-right: auto;
   }
 
+  /* FOOTER SECTION */
   footer {
     height: 50rem;
   }
@@ -1765,8 +1773,9 @@
 }
 
 /******************* FOR MOBILE SMALL SCREENS *******************************/
-
 @media (max-width: 360px) {
+
+  /* HERO SECTION  */
   .heroSection h2 {
     width: 17rem;
     font-size: 1.2rem;
@@ -1778,6 +1787,7 @@
     margin-top: 1rem;
   }
 
+  /* ABOUT SECTION */
   .aboutSection {
     height: 28.5rem;
   }
@@ -1805,6 +1815,7 @@
     margin-right: auto;
   }
 
+  /* HOW I BUILD YOUR PROJECT SECTION */
   .skillTextBox {
     margin-top: 1rem;
     display: flex;
@@ -1832,6 +1843,7 @@
     margin-right: auto;
   }
 
+  /* FOOTER SECTION */
   footer {
     height: 46rem;
   }
@@ -1879,13 +1891,5 @@
 
   .copyright {
     font-size: 8px;
-  }
-}
-
-
-@media (max-width:265px) {
-  
-  .aboutSection {
-    height: 31.5rem;
   }
 }
