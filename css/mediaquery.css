@@ -1,10 +1,10 @@
 
-/********************* 1440PX SCREEN SIZE ***********************************/
+/********************* 1440PX SCREEN SIZE FOR LARGER LAPTOPS ***********************************/
 @media (max-width: 1440px) {
+  /* ABOUT SECTION */
   .aboutCon {
     padding: 5.62rem 7.62rem 0;
     gap: 2.94rem;
-    /* place-items: center; */
     justify-content: center;
   }
 
@@ -24,6 +24,7 @@
     gap: 17rem;
   }
 
+  /* HOW I BUILD YOUR PROJECT SECTION */
   .skillDetails {
     padding-left: 7.62rem;
     padding-right: 7.62rem;
@@ -112,7 +113,6 @@
 
   .progressBox hr {
     margin-top: 1rem;
-    /* border: 0.5px solid black; */
   }
 
   .progressPercent {
@@ -143,14 +143,17 @@
     letter-spacing: 0.01875rem;
   }
 
+  /* MY PROJECTS LIST */
   .myProjects#projects {
     height: 33rem;
     background-size: contain;
   }
 }
 
-/*********************** FOR 1280PX SCREENS **************/
+/*********************** FOR 1280PX SCREENS (AVERAGE LAPTOP SCREEN) **************/
 @media (max-width: 1280px) {
+  
+  /* HERO SECTION */
   .myImageCon .myPix {
     width: 350px;
   }
@@ -167,6 +170,7 @@
     letter-spacing: 0.01875rem;
   }
 
+  /* ABOUT SECTION */
   .aboutSection {
     height: 35rem;
   }
@@ -174,7 +178,6 @@
   .aboutCon {
     padding: 5.62rem 7.62rem 0;
     gap: 2.94rem;
-    /* place-items: center; */
     justify-content: center;
   }
 
@@ -225,6 +228,7 @@
     font-size: 1.5rem;
   }
 
+  /* HOW I BUILD YOUR PROJECT SECTION */
   .skillDetails {
     padding-left: 7.62rem;
     padding-right: 7.62rem;
@@ -317,6 +321,7 @@
     line-height: 0.5rem; /* 93.333% */
   }
 
+  /* MY PROJECTS LIST */
   .myProjects#projects {
     height: 33rem;
     background-size: contain;
@@ -330,6 +335,7 @@
     width: 350px;
   }
 
+  /* FOOTER SECTION */
   footer h2 {
     font-size: 2.8rem;
   }
@@ -391,7 +397,6 @@
     align-items: center;
     gap: 0.5rem;
     border-radius: 1.5rem;
-    /* background: linear-gradient(214deg, #B75CFF 0%, #671AE4 100%); */
     background-image: linear-gradient(
       to right,
       #b75cff,
@@ -399,14 +404,14 @@
       #6b8dd6,
       #8e37d7
     );
-    /* box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75); */
     background-size: 300% 100%;
     cursor: pointer;
   }
 }
 
-/****************************** FOR 1020PX SCREENS *****************************************/
+/****************************** FOR 1020PX SCREENS (NORMAL LAPTOP SCREEN)*****************************************/
 @media (max-width: 1020px) {
+  /* HEADER SECTION WITH NAV LINK */
   .header {
     width: 100%;
     height: 4.85rem;
@@ -438,6 +443,7 @@
     border-radius: 30px;
   }
 
+  /* HERO SECTION */
   .heroSection h2 {
     margin: 8rem auto 0 auto;
     width: 46.27475rem;
@@ -492,6 +498,7 @@
     bottom: 0px;
   }
 
+  /* ABOUT SECTION */
   .aboutSection {
     height: 25.5rem;
   }
@@ -499,7 +506,6 @@
   .aboutCon {
     padding: 3.26rem 6rem 0;
     gap: 2.64rem;
-    /* place-items: center; */
     justify-content: center;
     position: relative;
   }
@@ -532,13 +538,9 @@
   }
 
   .achievements {
-    /* gap: 8.5rem; */
     justify-content: space-evenly;
     gap: 0;
     margin-top: 2.42rem;
-    /* margin-left: auto;
-    margin-right: auto;
-    width: 43.85rem; */
   }
 
   .achievements .achievementsList {
@@ -564,6 +566,7 @@
     width: auto;
   }
 
+  /* HOW I BUILD YOUR PROJECT SECTION */
   .skillDetails {
     padding-left: 9rem;
     padding-right: 9rem;
@@ -667,6 +670,7 @@
     line-height: 0.5rem; /* 93.333% */
   }
 
+  /* MY PROJECTS LIST  */
   .myProjects#projects {
     height: 23.2rem;
     background-size: contain;
@@ -688,6 +692,7 @@
     font-size: 0.8rem;
   }
 
+  /* FOOTER SECTION */
   footer {
     height: 42rem;
   }
@@ -752,7 +757,6 @@
     align-items: center;
     gap: 0.5rem;
     border-radius: 1.5rem;
-    /* background: linear-gradient(214deg, #B75CFF 0%, #671AE4 100%); */
     background-image: linear-gradient(
       to right,
       #b75cff,
@@ -760,7 +764,6 @@
       #6b8dd6,
       #8e37d7
     );
-    /* box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75); */
     background-size: 300% 100%;
     cursor: pointer;
   }
@@ -790,8 +793,9 @@
   }
 }
 
-/****************************************** SCREEN FOR TABLETS *********************************/
+/****************************************** SCREEN FOR BIG TABLETS AND MINI LAPTOPS*********************************/
 @media (max-width: 790px) {
+  /* HEADER */
   .navigation {
     display: none;
   }
@@ -801,6 +805,7 @@
     z-index: 9999;
   }
 
+  /* EFFECT OF MENU BUTTON */
   .navigation {
     background-color: rgba(34, 32, 32, 0.7);
     display: flex;
@@ -825,6 +830,7 @@
     align-items: flex-start;
   }
 
+  /* SHOW SECOND MENU BUTTON WHEN TOGGLED*/
   .visibleBtn .contactBtn {
     margin-left: 0;
     padding: 5px 13px;
@@ -846,6 +852,7 @@
     display: none;
   }
 
+  /* HERO SECTION  */
   .heroSection h2 {
     margin: 8rem auto 0 auto;
     width: 36rem;
@@ -900,6 +907,7 @@
     bottom: 0px;
   }
 
+  /* ABOUT SECTION  */
   .aboutSection {
     height: 21.5rem;
   }
@@ -907,7 +915,6 @@
   .aboutCon {
     padding: 3.26rem 6rem 0;
     gap: 1rem;
-    /* place-items: center; */
     justify-content: center;
     position: relative;
   }
@@ -967,6 +974,7 @@
     width: auto;
   }
 
+  /* HOW I BUILD YOUR PROJECT SECTION */
   .skillDetails {
     flex-direction: column;
     gap: 1rem;
@@ -1067,7 +1075,6 @@
 
   .progressBox hr {
     margin-top: 0.5rem;
-    /* border: 0.5px solid black; */
   }
 
   .progressPercent {
@@ -1098,6 +1105,7 @@
     letter-spacing: 0.01875rem;
   }
 
+  /* MY PROJECTS LIST SECTION*/
   .myProjects#projects {
     height: 23.2rem;
     background-size: contain;
@@ -1119,6 +1127,7 @@
     font-size: 0.7rem;
   }
 
+  /* FOOTER SECTION */
   footer {
     height: 42rem;
   }
