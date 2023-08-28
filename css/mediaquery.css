@@ -1,0 +1,1877 @@
+/********************* 1440PX SCREEN SIZE ***********************************/
+@media (max-width: 1440px) {
+  .aboutCon {
+    padding: 5.62rem 7.62rem 0;
+    gap: 2.94rem;
+    /* place-items: center; */
+    justify-content: center;
+  }
+
+  .aboutMe {
+    margin-left: 3rem;
+  }
+  .aboutSection .aboutDetails {
+    margin-left: 6rem;
+  }
+
+  .aboutSection .aboutDetails p {
+    width: 49.5625rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .achievements {
+    gap: 17rem;
+  }
+
+  .skillDetails {
+    padding-left: 7.62rem;
+    padding-right: 7.62rem;
+    gap: 4.32rem;
+  }
+
+  .skillDetails .wholeSkillBox {
+    gap: 0.94rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox {
+    width: 18rem;
+  }
+  .skillBox2 {
+    padding-top: 3.6rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox h3 {
+    margin-top: 3rem;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 2.25rem */
+  }
+
+  .skillDetails .wholeSkillBox .skillBox p {
+    width: 15.3125rem;
+  }
+
+  .skillTextBox {
+    margin-top: 6.25rem;
+    display: flex;
+    width: 34rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+  }
+
+  .skillText h3 {
+    color: #1c1c1c;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.125rem; /* 166.667% */
+    letter-spacing: 0.01875rem;
+  }
+
+  .skillText p {
+    color: rgba(28, 28, 28, 0.5);
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 2.25rem */
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressBox {
+    width: 33rem;
+  }
+
+  .skillCompletion {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .skillCompletion img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+  }
+
+  .skillCompletionName h6 {
+    color: #1c1c1c;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.01875rem;
+  }
+
+  .skillCompletionName p {
+    color: #1c1c1c;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressBox hr {
+    margin-top: 1rem;
+    /* border: 0.5px solid black; */
+  }
+
+  .progressPercent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .progressPercent .progress {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 0.2rem;
+  }
+
+  .progressPercent .progress h3 {
+    color: #1c1c1c;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 180%; /* 4.05rem */
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressPercent .progress p {
+    color: #747578;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 0.875rem; /* 93.333% */
+    letter-spacing: 0.01875rem;
+  }
+
+  .myProjects#projects {
+    height: 33rem;
+    background-size: contain;
+  }
+}
+
+/*********************** FOR 1280PX SCREENS **************/
+@media (max-width: 1280px) {
+  .myImageCon .myPix {
+    width: 350px;
+  }
+  .heroSection h2 {
+    margin: 13.875rem auto 0 auto;
+    width: 61.8125rem;
+    color: #1c1c1c;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 3.75rem */
+    letter-spacing: 0.01875rem;
+  }
+
+  .aboutSection {
+    height: 35rem;
+  }
+
+  .aboutCon {
+    padding: 5.62rem 7.62rem 0;
+    gap: 2.94rem;
+    /* place-items: center; */
+    justify-content: center;
+  }
+
+  .aboutMe {
+    margin-left: 4rem;
+    font-size: 5rem;
+  }
+  .aboutSection .aboutDetails {
+    margin-left: 0rem;
+  }
+
+  .aboutSection .aboutDetails p {
+    font-size: 1.5rem;
+    width: 40.5625rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .aboutSection .aboutDetails h3 {
+    font-size: 2rem;
+  }
+
+  .aboutSection .aboutDetails ul {
+    gap: 5rem;
+    font-size: 1.5rem;
+  }
+
+  .achievements {
+    gap: 13rem;
+  }
+
+  .achievements .achievementsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 10.2rem;
+  }
+
+  .achievements .achievementsList h2 {
+    display: flex;
+    height: 4.875rem;
+    padding: 1rem 2rem;
+    gap: 0.625rem;
+    border-radius: 1.4rem;
+  }
+
+  .achievements .achievementsList p {
+    font-size: 1.5rem;
+  }
+
+  .skillDetails {
+    padding-left: 7.62rem;
+    padding-right: 7.62rem;
+    gap: 1.8rem;
+    height: 35rem;
+  }
+
+  .skillDetails .wholeSkillBox {
+    gap: 0.7rem;
+    margin-top: 5rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox {
+    width: 14rem;
+    height: 25rem;
+  }
+  .skillBox2 {
+    padding-top: 3rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox h3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 2.25rem */
+  }
+
+  .skillDetails .wholeSkillBox .skillBox p {
+    width: 12.3125rem;
+    font-size: 0.9rem;
+  }
+
+  .skillTextBox {
+    margin-top: 4.2rem;
+    display: flex;
+    width: 34rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+  }
+
+  .skillText h3 {
+    font-size: 1.5rem;
+    width: 30rem;
+  }
+
+  .skillText p {
+    font-size: 1rem;
+    width: 30rem;
+  }
+
+  .progressBox {
+    width: 30rem;
+  }
+
+  .skillCompletion {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .skillCompletion img {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .skillCompletionName h6 {
+    font-size: 1rem;
+  }
+
+  .skillCompletionName p {
+    font-size: 0.8rem;
+  }
+
+  .progressBox hr {
+    margin-top: 1rem;
+  }
+
+  .progressPercent .progress {
+    margin-top: 1rem;
+    gap: 0.2rem;
+  }
+
+  .progressPercent .progress h3 {
+    font-size: 2rem;
+  }
+
+  .progressPercent .progress p {
+    font-size: 0.9rem;
+    line-height: 0.5rem; /* 93.333% */
+  }
+
+  .myProjects#projects {
+    height: 33rem;
+    background-size: contain;
+  }
+
+  .myProjects#projects h1 {
+    font-size: 2.2rem;
+  }
+
+  .myProjects#projects div img {
+    width: 350px;
+  }
+
+  footer h2 {
+    font-size: 2.8rem;
+  }
+
+  .formTag {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    place-items: center;
+    margin: 5rem auto 0;
+    width: auto;
+  }
+
+  input,
+  textarea {
+    width: 20rem;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .inputLabel {
+    font-size: 18px;
+  }
+
+  .textAreaLabel {
+    display: block;
+    font-size: 18px;
+  }
+
+  input:focus ~ .inputLabel,
+  input:valid ~ .inputLabel {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 10px;
+  }
+
+  textarea:valid,
+  textarea:focus {
+    border-bottom: 2px solid #03e9f4;
+    border-right: 2px solid #03e9f4;
+  }
+
+  .sendBtnDiv {
+    width: 20.32rem;
+    margin-top: 3rem;
+  }
+
+  .sendBtn {
+    position: relative;
+    margin-left: auto;
+    right: 0;
+    font-size: 18px;
+    color: #f6f6f6;
+    display: flex;
+    padding: 1rem 1.3rem;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1.5rem;
+    /* background: linear-gradient(214deg, #B75CFF 0%, #671AE4 100%); */
+    background-image: linear-gradient(
+      to right,
+      #b75cff,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    /* box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75); */
+    background-size: 300% 100%;
+    cursor: pointer;
+  }
+}
+
+/****************************** FOR 1020PX SCREENS *****************************************/
+@media (max-width: 1020px) {
+  .header {
+    width: 100%;
+    height: 4.85rem;
+    padding: 1.81rem 3.51rem;
+  }
+
+  .header .logo {
+    gap: 2.9px;
+  }
+
+  .header .logo h2 {
+    width: 23px;
+    height: 23px;
+    font-size: 12px;
+  }
+
+  .header .logo h3 {
+    font-size: 16px;
+  }
+
+  .header .navigationLink {
+    gap: 16px;
+    font-size: 16px;
+  }
+
+  .navigationLink .contactBtn {
+    padding: 0.36rem 0.72rem;
+    margin-left: 24px;
+    border-radius: 30px;
+  }
+
+  .heroSection h2 {
+    margin: 8rem auto 0 auto;
+    width: 46.27475rem;
+    font-size: 2.2rem;
+  }
+
+  .heroSection .myImageCon {
+    gap: 0.5rem;
+    margin-top: 0.9rem;
+    margin-bottom: 4.6rem;
+  }
+
+  .myImageCon .myPix {
+    width: 17.25rem;
+    height: 24.75rem;
+  }
+
+  .heroSection .myImageCon h3 {
+    display: flex;
+    width: 14rem;
+    height: 4.25rem;
+    padding: 0.86875rem 2.42525rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.362rem;
+    font-size: 1rem;
+    border-radius: 8.5rem;
+    background: linear-gradient(214deg, #b75cff 0%, #671ae4 100%);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .heroSection .myImageCon .heroUI {
+    margin-top: 3.44rem;
+  }
+
+  .heroSection .myImageCon .heroWeb {
+    margin-top: 17.55rem;
+  }
+
+  .loader {
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    z-index: -1;
+    transform-style: preserve-3d;
+    transform: perspective(700px) rotateX(60deg);
+  }
+
+  .loader1 {
+    right: 0;
+    top: 10px;
+  }
+  .loader2 {
+    bottom: 0px;
+  }
+
+  .aboutSection {
+    height: 25.5rem;
+  }
+
+  .aboutCon {
+    padding: 3.26rem 6rem 0;
+    gap: 2.64rem;
+    /* place-items: center; */
+    justify-content: center;
+    position: relative;
+  }
+
+  .aboutMe {
+    margin-left: 0rem;
+    font-size: 3.8rem;
+    width: 11.624rem;
+  }
+  .aboutSection .aboutDetails {
+    position: relative;
+    margin-left: auto;
+    right: 0;
+  }
+
+  .aboutSection .aboutDetails p {
+    font-size: 1.3rem;
+    width: 28.7rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .aboutSection .aboutDetails h3 {
+    font-size: 1.5rem;
+  }
+
+  .aboutSection .aboutDetails ul {
+    gap: 2.81rem;
+    font-size: 1.3rem;
+    margin-left: 1.4rem;
+  }
+
+  .achievements {
+    /* gap: 8.5rem; */
+    justify-content: space-evenly;
+    gap: 0;
+    margin-top: 2.42rem;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 43.85rem; */
+  }
+
+  .achievements .achievementsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 10.2rem;
+  }
+
+  .achievements .achievementsList h2 {
+    display: flex;
+    height: 4.875rem;
+    padding: 0.1rem 1.5rem;
+    height: 4rem;
+    gap: 0.625rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+  }
+
+  .achievements .achievementsList p {
+    font-size: 1.3rem;
+    width: auto;
+  }
+
+  .skillDetails {
+    padding-left: 9rem;
+    padding-right: 9rem;
+    gap: 2rem;
+    height: 24.6rem;
+  }
+
+  .skillDetails .wholeSkillBox {
+    gap: 0.6rem;
+    margin-top: 3.62rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox {
+    width: 11.43rem;
+    height: 17.9rem;
+  }
+  .skillBox2 {
+    padding-top: 2rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox h3 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #f6f6f6;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox p {
+    width: 8.9rem;
+    color: #f6f6f6;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+  }
+
+  .skillTextBox {
+    margin-top: 3.4rem;
+    display: flex;
+    width: 28rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+  }
+
+  .skillText h3 {
+    width: 22rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.80988rem; /* 160.88% */
+    letter-spacing: 0.01088rem;
+  }
+
+  .skillText p {
+    color: rgba(28, 28, 28, 0.8);
+    font-size: 0.8rem;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 1.35rem */
+    letter-spacing: 0.01088rem;
+  }
+
+  .progressBox {
+    width: 100%;
+  }
+
+  .skillCompletion {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .skillCompletion img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .skillCompletionName h6 {
+    font-size: 0.75rem;
+  }
+
+  .skillCompletionName p {
+    font-size: 0.6rem;
+  }
+
+  .progressBox hr {
+    margin-top: 0.5rem;
+  }
+
+  .progressPercent .progress {
+    margin-top: 0.5rem;
+    gap: 0.2rem;
+  }
+
+  .progressPercent .progress h3 {
+    font-size: 1.4rem;
+    height: 2.2rem;
+  }
+
+  .progressPercent .progress p {
+    font-size: 0.6rem;
+    line-height: 0.5rem; /* 93.333% */
+  }
+
+  .myProjects#projects {
+    height: 23.2rem;
+    background-size: contain;
+  }
+
+  .myProjects#projects h1 {
+    font-size: 1.6rem;
+  }
+
+  .myProjects#projects div {
+    margin-top: 1.68rem;
+  }
+
+  .myProjects#projects div img {
+    width: 19.5rem;
+  }
+
+  .myProjects div figcaption {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    height: 42rem;
+  }
+  footer h2 {
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 2.25rem */
+    width: 36.19794rem;
+    padding-top: 3.62rem;
+  }
+
+  form .formTag {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0rem;
+    row-gap: 2rem;
+    place-items: center;
+    margin: 3rem auto 0;
+    width: auto;
+  }
+
+  input,
+  textarea {
+    width: 20rem;
+    padding: 10px 0;
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  .inputLabel {
+    font-size: 15px;
+  }
+
+  .textAreaLabel {
+    display: block;
+    font-size: 15px;
+  }
+
+  input:focus ~ .inputLabel,
+  input:valid ~ .inputLabel {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 8px;
+  }
+
+  textarea:valid,
+  textarea:focus {
+    border-bottom: 2px solid #03e9f4;
+    border-right: 2px solid #03e9f4;
+  }
+
+  .sendBtnDiv {
+    width: 20.32rem;
+    margin-top: 3rem;
+  }
+
+  .sendBtn {
+    font-size: 15px;
+    padding: 0.8rem 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1.5rem;
+    /* background: linear-gradient(214deg, #B75CFF 0%, #671AE4 100%); */
+    background-image: linear-gradient(
+      to right,
+      #b75cff,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    /* box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75); */
+    background-size: 300% 100%;
+    cursor: pointer;
+  }
+
+  .myIcons {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    gap: 3rem;
+  }
+
+  .myIcons a .profileIcon:hover,
+  .myIcons a .profileIcon:active {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .myIcons a .profileIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 13px;
+  }
+}
+
+/****************************************** SCREEN FOR TABLETS *********************************/
+@media (max-width: 790px) {
+  .navigation {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .navigation {
+    background-color: rgba(34, 32, 32, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100vh;
+    transform: translateX(100%);
+  }
+
+  .header .navigationLink {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .visibleBtn .contactBtn {
+    margin-left: 0;
+    padding: 5px 13px;
+    font-size: 15px;
+  }
+
+  .nav-open .navigation {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .heroSection h2 {
+    margin: 8rem auto 0 auto;
+    width: 36rem;
+    font-size: 1.7rem;
+  }
+
+  .heroSection .myImageCon {
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .myImageCon .myPix {
+    width: 14rem;
+    height: 22rem;
+  }
+
+  .heroSection .myImageCon h3 {
+    display: flex;
+    width: 10rem;
+    height: 4.25rem;
+    padding: 0.5rem 0.8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.362rem;
+    font-size: 0.8rem;
+    border-radius: 5.5rem;
+    background: linear-gradient(214deg, #b75cff 0%, #671ae4 100%);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .heroSection .myImageCon .heroUI {
+    margin-top: 2rem;
+  }
+
+  .heroSection .myImageCon .heroWeb {
+    margin-top: 16rem;
+  }
+
+  .loader {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    z-index: -1;
+    transform-style: preserve-3d;
+    transform: perspective(700px) rotateX(60deg);
+  }
+
+  .loader1 {
+    right: 0;
+    top: 10px;
+  }
+  .loader2 {
+    bottom: 0px;
+  }
+
+  .aboutSection {
+    height: 21.5rem;
+  }
+
+  .aboutCon {
+    padding: 3.26rem 6rem 0;
+    gap: 1rem;
+    /* place-items: center; */
+    justify-content: center;
+    position: relative;
+  }
+
+  .aboutMe {
+    margin-left: 0rem;
+    font-size: 2.2rem;
+    width: 8rem;
+  }
+  .aboutSection .aboutDetails {
+    position: relative;
+    margin-left: auto;
+    right: 0;
+  }
+
+  .aboutSection .aboutDetails p {
+    font-size: 1rem;
+    width: 25rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .aboutSection .aboutDetails h3 {
+    font-size: 1.2rem;
+  }
+
+  .aboutSection .aboutDetails ul {
+    gap: 2.81rem;
+    font-size: 1rem;
+    margin-left: 1.4rem;
+    margin-top: 0.3rem;
+  }
+
+  .achievements {
+    justify-content: space-evenly;
+    gap: 0;
+    margin-top: 1.8rem;
+  }
+
+  .achievements .achievementsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    width: 7rem;
+  }
+
+  .achievements .achievementsList h2 {
+    height: 3.875rem;
+    padding: 0.1rem 1.2rem;
+    gap: 0.625rem;
+    border-radius: 0.8rem;
+    font-size: 1.4rem;
+  }
+
+  .achievements .achievementsList p {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .skillDetails {
+    flex-direction: column;
+    gap: 1rem;
+    height: 49rem;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .skillDetails .wholeSkillBox {
+    gap: 0.6rem;
+    margin-top: 0;
+    width: 100%;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox {
+    width: 15rem;
+    height: 20rem;
+  }
+  .skillBox2 {
+    padding-top: 1rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox h3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 2.25rem */
+  }
+
+  .skillDetails .wholeSkillBox .skillBox p {
+    width: 12.3125rem;
+    font-size: 0.8rem;
+    line-height: 150%;
+  }
+
+  .skillTextBox {
+    margin-top: 1rem;
+    display: flex;
+    width: 35rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+  }
+
+  .skillText h3 {
+    color: #1c1c1c;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.125rem; /* 166.667% */
+    letter-spacing: 0.01875rem;
+  }
+
+  .skillText p {
+    color: rgba(28, 28, 28, 0.5);
+    font-family: Poppins;
+    font-size: 1rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 2.25rem */
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressBox {
+    width: 100%;
+  }
+
+  .skillCompletion {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .skillCompletion img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+  }
+
+  .skillCompletionName h6 {
+    color: #1c1c1c;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.01875rem;
+  }
+
+  .skillCompletionName p {
+    color: #1c1c1c;
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressBox hr {
+    margin-top: 0.5rem;
+    /* border: 0.5px solid black; */
+  }
+
+  .progressPercent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .progressPercent .progress {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 1rem;
+  }
+
+  .progressPercent .progress h3 {
+    color: #1c1c1c;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 180%; /* 4.05rem */
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressPercent .progress p {
+    color: #747578;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 0.875rem; /* 93.333% */
+    letter-spacing: 0.01875rem;
+  }
+
+  .myProjects#projects {
+    height: 23.2rem;
+    background-size: contain;
+  }
+
+  .myProjects#projects h1 {
+    font-size: 1.8rem;
+  }
+
+  .myProjects#projects div {
+    margin-top: 1.3rem;
+  }
+
+  .myProjects#projects div img {
+    width: 15.5rem;
+  }
+
+  .myProjects div figcaption {
+    font-size: 0.7rem;
+  }
+
+  footer {
+    height: 42rem;
+  }
+  footer h2 {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 36.19794rem;
+    padding-top: 3.62rem;
+  }
+
+  form .formTag {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0rem;
+    row-gap: 2rem;
+    place-items: center;
+    margin: 2.5rem auto 0;
+    width: auto;
+  }
+
+  input,
+  textarea {
+    width: 16rem;
+    padding: 10px 0;
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  .inputLabel {
+    font-size: 12px;
+  }
+
+  .textAreaLabel {
+    display: block;
+    font-size: 12px;
+  }
+
+  input:focus ~ .inputLabel,
+  input:valid ~ .inputLabel {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 8px;
+  }
+
+  textarea:valid,
+  textarea:focus {
+    border-bottom: 2px solid #03e9f4;
+    border-right: 2px solid #03e9f4;
+  }
+
+  .sendBtnDiv {
+    width: 18rem;
+    margin-top: 3rem;
+  }
+
+  .sendBtn {
+    font-size: 12px;
+    padding: 0.8rem 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1.5rem;
+    /* background: linear-gradient(214deg, #B75CFF 0%, #671AE4 100%); */
+    background-image: linear-gradient(
+      to right,
+      #b75cff,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    /* box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75); */
+    background-size: 300% 100%;
+    cursor: pointer;
+  }
+
+  .myIcons {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    gap: 2.5rem;
+  }
+
+  .myIcons a .profileIcon:hover,
+  .myIcons a .profileIcon:active {
+    height: 2.6rem;
+    width: 2.6rem;
+  }
+
+  .myIcons a .profileIcon {
+    height: 1.3rem;
+    width: 1.3rem;
+    position: absolute;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 11px;
+  }
+}
+
+/************************** FOR 580PX SCREEN ***********************************/
+@media (max-width: 580px) {
+  .visibleBtn .contactBtn {
+    display: none;
+  }
+
+  .letsTalkDiv {
+    display: inline-block;
+  }
+
+  .navigationLink .contactBtn1 {
+    margin-left: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .heroSection {
+    padding-bottom: 1rem;
+  }
+
+  .heroSection h2 {
+    width: 23.75rem;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.875rem */
+    letter-spacing: 0.01875rem;
+  }
+
+  .heroSection .myImageCon {
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .myImageCon .myPix {
+    width: 17rem;
+    height: 25rem;
+    margin-top: 1rem;
+  }
+
+  .heroSection .myImageCon .heroUI {
+    display: none;
+  }
+
+  .heroSection .myImageCon .heroWeb {
+    display: none;
+  }
+
+  .loader {
+    display: none;
+  }
+
+  .aboutSection {
+    height: 25rem;
+  }
+
+  .aboutCon {
+    flex-direction: column;
+    padding: 3rem 0 0;
+    gap: 1rem;
+    /* place-items: center; */
+    justify-content: center;
+    position: relative;
+  }
+
+  .aboutMe {
+    text-align: center;
+    margin-left: 0rem;
+    font-size: 2.2rem;
+    width: 100%;
+  }
+  .aboutSection .aboutDetails {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutSection .aboutDetails p {
+    text-align: center;
+    font-size: 1rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+  }
+
+  .aboutSection .aboutDetails h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .aboutSection .aboutDetails ul {
+    gap: 2.5rem;
+    font-size: 1.2rem;
+    margin-left: 1.4rem;
+    margin-top: 0.3rem;
+  }
+
+  .achievements {
+    justify-content: space-evenly;
+    gap: 0;
+    margin-top: 2rem;
+  }
+
+  .achievements .achievementsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    width: 8rem;
+  }
+
+  .achievements .achievementsList h2 {
+    height: 2rem;
+    padding: 0.1rem 0.7rem;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  .achievements .achievementsList p {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .skillDetails {
+    flex-direction: column;
+    gap: 1rem;
+    height: 49rem;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .skillDetails .wholeSkillBox {
+    gap: 0.6rem;
+    margin-top: 0;
+    width: 100%;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox {
+    width: 15rem;
+    height: 20rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .skillBox2 {
+    padding-top: 1rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox h3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 2.25rem */
+  }
+
+  .skillDetails .wholeSkillBox .skillBox p {
+    width: 11.3125rem;
+    font-size: 0.8rem;
+    line-height: 150%;
+  }
+
+  .skillTextBox {
+    margin-top: 1rem;
+    display: flex;
+    width: 25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+  }
+
+  .skillText h3 {
+    color: #1c1c1c;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem; /* 166.667% */
+    letter-spacing: 0.01875rem;
+  }
+
+  .skillText p {
+    color: rgba(28, 28, 28, 0.5);
+    font-family: Poppins;
+    font-size: 1rem;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 2.25rem */
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressBox {
+    width: 100%;
+  }
+
+  .skillCompletion {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .skillCompletion img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+  }
+
+  .skillCompletionName h6 {
+    color: #1c1c1c;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.01875rem;
+  }
+
+  .skillCompletionName p {
+    color: #1c1c1c;
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressBox hr {
+    margin-top: 0.5rem;
+    /* border: 0.5px solid black; */
+  }
+
+  .progressPercent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .progressPercent .progress {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 0.3rem;
+  }
+
+  .progressPercent .progress h3 {
+    color: #1c1c1c;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 180%; /* 4.05rem */
+    letter-spacing: 0.01875rem;
+  }
+
+  .progressPercent .progress p {
+    color: #747578;
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 0.875rem; /* 93.333% */
+    letter-spacing: 0.01875rem;
+  }
+
+  .myProjects#projects {
+    height: 19rem;
+    background-image: none;
+  }
+
+  .myProjects#projects h1 {
+    font-size: 1.6rem;
+  }
+
+  footer {
+    height: 50rem;
+  }
+
+  footer h2 {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 25rem;
+    padding-top: 3.62rem;
+  }
+
+  form .formTag {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    place-items: center;
+    margin: 2.5rem auto 0;
+    width: auto;
+  }
+
+  input,
+  textarea {
+    width: 20rem;
+    padding: 10px 0;
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  .inputLabel {
+    font-size: 12px;
+  }
+
+  .textAreaLabel {
+    display: block;
+    font-size: 12px;
+  }
+
+  .sendBtnDiv {
+    width: 18rem;
+    margin-top: 0;
+  }
+
+  .sendBtn {
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0.8rem 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1.5rem;
+    /* background: linear-gradient(214deg, #B75CFF 0%, #671AE4 100%); */
+    background-image: linear-gradient(
+      to right,
+      #b75cff,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    /* box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75); */
+    background-size: 300% 100%;
+    cursor: pointer;
+  }
+
+  .myIcons {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    gap: 2.5rem;
+  }
+
+  .myIcons a .profileIcon:hover,
+  .myIcons a .profileIcon:active {
+    height: 2.6rem;
+    width: 2.6rem;
+  }
+
+  .myIcons a .profileIcon {
+    height: 1.3rem;
+    width: 1.3rem;
+    position: absolute;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 11px;
+  }
+}
+
+/********************** FOR 420PX AND SMALL SCREENS *****************************/
+@media (max-width: 420px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .heroSection {
+    padding-bottom: 0rem;
+  }
+
+  .heroSection h2 {
+    width: 21rem;
+    font-size: 1.5625rem;
+  }
+
+  .heroSection .myImageCon {
+    margin-top: 0.8rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .myImageCon .myPix {
+    width: 15rem;
+    height: 23rem;
+    margin-top: 1rem;
+  }
+
+  .aboutSection {
+    height: 20.5rem;
+  }
+
+  .aboutCon {
+    flex-direction: column;
+    padding: 2rem 0 0;
+    gap: 0.5rem;
+    /* place-items: center; */
+    justify-content: center;
+    position: relative;
+  }
+
+  .aboutMe {
+    font-size: 1.87rem;
+  }
+
+  .aboutSection .aboutDetails p {
+    font-size: 0.93rem;
+    line-height: 150%;
+    margin: 0 auto;
+    width: 21.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .aboutSection .aboutDetails h3 {
+    font-size: 1.35rem;
+  }
+
+  .aboutSection .aboutDetails ul {
+    gap: 2.3rem;
+    font-size: 0.93rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3rem;
+  }
+
+  .achievements {
+    justify-content: space-evenly;
+    gap: 0;
+    margin-top: 2rem;
+  }
+
+  .achievements .achievementsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    width: 8rem;
+  }
+
+  .achievements .achievementsList h2 {
+    height: 2rem;
+    padding: 0.1rem 0.7rem;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  .achievements .achievementsList p {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .skillDetails {
+    flex-direction: column;
+    gap: 1rem;
+    height: 72rem;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .skillDetails .wholeSkillBox {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0;
+    width: 100%;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox {
+    width: 15rem;
+    height: 20rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .skillBox2 {
+    padding-top: 1rem;
+  }
+
+  .skillDetails .wholeSkillBox .skillBox h3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 2.25rem */
+  }
+
+  .skillDetails .wholeSkillBox .skillBox p {
+    width: 11.3125rem;
+    font-size: 0.8rem;
+    line-height: 150%;
+  }
+
+  .skillTextBox {
+    margin-top: 1rem;
+    display: flex;
+    width: 25rem;
+    gap: 1.875rem;
+  }
+
+  .skillText h3 {
+    color: #1c1c1c;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .skillText p {
+    font-size: 0.93rem;
+    width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .progressBox {
+    width: 21rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    height: 50rem;
+  }
+
+  footer h2 {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 21rem;
+    padding-top: 2.62rem;
+  }
+}
+
+/* FOR EXTRA SMALL SCREENS */
+
+@media (max-width: 360px) {
+  .heroSection h2 {
+    width: 17rem;
+    font-size: 1.2rem;
+  }
+
+  .myImageCon .myPix {
+    width: 15rem;
+    height: 23rem;
+    margin-top: 1rem;
+  }
+
+  .aboutSection {
+    height: 28.5rem;
+  }
+
+  .aboutSection .aboutDetails p {
+    font-size: 0.7rem;
+    line-height: 120%;
+    width: 15rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .aboutSection .aboutDetails ul {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1rem;
+    margin-top: 0.7rem;
+  }
+
+  .achievements {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skillTextBox {
+    margin-top: 1rem;
+    display: flex;
+    width: 16rem;
+    gap: 1.875rem;
+  }
+
+  .skillText h3 {
+    width: 16rem;
+    font-size: 1.25rem;
+    line-height: 120%;
+  }
+
+  .skillText p {
+    font-size: 0.93rem;
+    width: 16rem;
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .progressBox {
+    width: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    height: 46rem;
+  }
+
+  footer h2 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 17rem;
+    padding-top: 2.62rem;
+  }
+
+  input,
+  textarea {
+    width: 16rem;
+    font-size: 10px;
+  }
+
+  .inputLabel {
+    font-size: 10px;
+  }
+
+  .textAreaLabel {
+    display: block;
+    font-size: 10px;
+  }
+
+  .myIcons {
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    gap: 2rem;
+  }
+
+  .myIcons a .profileIcon:hover,
+  .myIcons a .profileIcon:active {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .myIcons a .profileIcon {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .copyright {
+    font-size: 8px;
+  }
+}
