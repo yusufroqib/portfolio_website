@@ -1871,3 +1871,11 @@
     font-size: 8px;
   }
 }
+
+
+@media (max-width:265px) {
+  
+  .aboutSection {
+    height: 31.5rem;
+  }
+}
