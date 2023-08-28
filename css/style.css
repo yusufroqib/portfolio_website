@@ -714,11 +714,15 @@ justify-content: space-around;
 }
 
 .myProjects#projects div img {
-  width: 100%;
+  width: 23rem;
 }
 
 .projectButtons ul {
   list-style: none;
+}
+
+.fullProjectSlide{
+  width: 23rem;
 }
 
 .projectSlideBox{
@@ -791,28 +795,20 @@ font-size: 2rem;
   color:#ffffff;
 }
 
-
-/* .myProjects div:hover,
-.myProjects div:active {
-  animation: hover-effect 0.1s infinite;
-  animation-direction: alternate;
-} */
-
-/* TRANSITION FOR MY PROJECTS HOVER EFFECT */
-/* @keyframes hover-effect {
-  from {
-    left: 20px;
-  }
-  to {
-    left: 23px;
-  }
-} */
-
-.myProjects .projectSlides figcaption {
+.projectCaption {
   color: #f6f6f6;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.8rem;
+  font-weight: 300;
   letter-spacing: 0.01875rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  background-color: #1c1c1c;  
+  padding: 0.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.projectCaption p {
   margin-top: 0.5rem;
 }
 

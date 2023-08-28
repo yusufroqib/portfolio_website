@@ -1,293 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yusuf Roqib</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/mediaquery.css">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-</head>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/mediaquery.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  </head>
 
-<body>
-<!-- HEADER SECTION  -->
+  <body>
+    <!-- HEADER SECTION  -->
     <header class="header">
-        <div class="logo">
-            <h2>R</h2>
-            <h3>Roqib</h3>
+      <div class="logo">
+        <h2>R</h2>
+        <h3>Roqib</h3>
+      </div>
+
+      <!-- NAVIGATION LINKS -->
+      <nav class="navigation">
+        <ul class="navigationLink">
+          <li>
+            <a href="#hero" class="navLinks"
+              >Home
+              <div class="nav--item__border"></div
+            ></a>
+          </li>
+          <li>
+            <a href="#about" class="navLinks"
+              >About
+              <div class="nav--item__border"></div
+            ></a>
+          </li>
+          <li>
+            <a href="#projects" class="navLinks"
+              >Projects
+              <div class="nav--item__border"></div
+            ></a>
+          </li>
+          <li>
+            <div class="letsTalkDiv">
+              <a href="#myContactForm" class="navLinks contactBtn1">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Let's Talk
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- SECOND NAV CONTACTme BUTTON TO HIDE FOR MOBILE -->
+      <div class="contactWithToggle">
+        <div class="visibleBtn">
+          <a href="#myContactForm" class="navLinks contactBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Let's Talk
+          </a>
         </div>
 
-<!-- NAVIGATION LINKS -->
-        <nav class="navigation">
-            <ul class="navigationLink">
-                <li><a href="#hero" class="navLinks">Home <div class="nav--item__border"></div></a> </li>
-                <li><a href="#about" class="navLinks">About <div class="nav--item__border"></div></a></li>
-                <li><a href="#projects" class="navLinks">Projects <div class="nav--item__border"></div></a></li>
-                <li>
-                    <div class="letsTalkDiv">
-                        <a href="#myContactForm" class="navLinks contactBtn1">  
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            Let's Talk
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-
-<!-- SECOND NAV CONTACTme BUTTON TO HIDE FOR MOBILE -->
-        <div class="contactWithToggle">
-            <div class="visibleBtn">
-                <a href="#myContactForm" class="navLinks contactBtn">  
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Let's Talk
-                </a>
-            </div>
-
-<!-- MENU TOGGLE BUTTON ICONS  -->
-            <div class="btn-mobile-nav">
-                <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-            </div>
+        <!-- MENU TOGGLE BUTTON ICONS  -->
+        <div class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
         </div>
+      </div>
     </header>
 
-
     <main>
-<!-- HERO SECTION -->
-        <section class="heroSection" id="hero">
-            <h2> I’m <span id="roqib">Roqib</span>. I will create a web design that can give value to your company</h2>
-            <div class="myImageCon">
-                <div class="loader loader1">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="loader loader2">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                <h3 class="heroUI">UI/UX Designer</h3>
-                <div class="overlayName">
-                    <img class="myPix" src="/img/myPix.png" alt="Roqib Image">
-                    <div class="onImage">Yusuf Roqib</div>
-                </div>
-                
-                <h3 class="heroWeb">Web Developer</h3>
+      <!-- HERO SECTION -->
+      <section class="heroSection" id="hero">
+        <h2>
+          I’m <span id="roqib">Roqib</span>. I will create a web design that can
+          give value to your company
+        </h2>
+        <div class="myImageCon">
+          <div class="loader loader1">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="loader loader2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h3 class="heroUI">UI/UX Designer</h3>
+          <div class="overlayName">
+            <img class="myPix" src="/img/myPix.png" alt="Roqib Image" />
+            <div class="onImage">Yusuf Roqib</div>
+          </div>
+
+          <h3 class="heroWeb">Web Developer</h3>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="aboutSection" id="about">
+        <div class="aboutCon">
+          <div>
+            <h1 class="aboutMe">About Me</h1>
+          </div>
+
+          <div class="aboutDetails">
+            <p>
+              I am a web developer. I started learning how to code so I can
+              build my own video games and websites.
+            </p>
+            <h3>SKILLS:</h3>
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>UI/UX</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="achievements">
+          <div class="achievementsList">
+            <h2>1</h2>
+            <p>Projects Done</p>
+          </div>
+          <div class="achievementsList">
+            <h2>1</h2>
+            <p>Happy Clients</p>
+          </div>
+          <div class="achievementsList">
+            <h2>1</h2>
+            <p>Clients on Worldwide</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW I WORK ON YOUR PROJECTS -->
+      <section class="skillDetails">
+        <div class="wholeSkillBox">
+          <div class="skillBox">
+            <img src="/img/webDesign.svg" alt="Web Design Icon" />
+            <h3>Web Design</h3>
+            <p>
+              Overtime, I have gained a lot of experience designing and
+              developing mobile and web applications.
+            </p>
+          </div>
+          <div class="skillBox skillBox2">
+            <img src="/img/UI_UX.svg" alt="UI/UX Icon" />
+            <h3>UI/UX Design</h3>
+            <p>
+              I have a passion for expressive typography and perfectly
+              color-balanced designs. Fueled by curiosity, I design delightful
+              experiences.
+            </p>
+          </div>
+        </div>
+
+        <div class="skillTextBox">
+          <div class="skillText">
+            <h3>What I Can Do To Help Build Your Product</h3>
+            <p>
+              As a rare designer-developer hybrid, I understand both the visual,
+              experimental and functional aspect of creating for the web. My
+              mission is to bring more beauty, creativity and good ideas into
+              the world through web design.
+            </p>
+          </div>
+          <div class="progressBox">
+            <div class="skillCompletion">
+              <img src="/img/My-final-Image.png" alt="Roqib Avatar" />
+              <div class="skillCompletionName">
+                <h6>Yusuf Roqib</h6>
+                <p>Web Designer</p>
+              </div>
             </div>
-        </section>
-
-<!-- ABOUT SECTION -->
-        <section class="aboutSection" id="about">
-            <div class="aboutCon">
-                <div>
-                    <h1 class="aboutMe">About Me</h1>
-                </div>
-
-                <div class="aboutDetails">
-                    <p>I am a web developer. I started learning how to code so I can build my own video games and websites.</p>
-                    <h3>SKILLS:</h3>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>UI/UX</li>
-                    </ul>
-                </div>
+            <hr />
+            <div class="progressPercent">
+              <div class="progress">
+                <h3>+52.5%</h3>
+                <p>Tasks finished</p>
+              </div>
+              <div class="progress">
+                <h3>+67.5%</h3>
+                <p>Progress speed</p>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="achievements">
-                <div class="achievementsList">
-                    <h2>1</h2>
-                    <p>Projects Done</p>
-                </div>
-                <div class="achievementsList">
-                    <h2>1</h2>
-                    <p>Happy Clients</p>
-                </div>
-                <div class="achievementsList">
-                    <h2>1</h2>
-                    <p>Clients on Worldwide</p>
-                </div>
-            </div>
-        </section>
-
-<!-- HOW I WORK ON YOUR PROJECTS -->
-        <section class="skillDetails">
-            <div class="wholeSkillBox">
-                <div class="skillBox">
-                    <img src="/img/webDesign.svg" alt="Web Design Icon">
-                    <h3>Web Design</h3>
-                    <p>Overtime, I have gained a lot of experience designing and developing mobile and web applications.</p>
-                </div>
-                <div class="skillBox skillBox2">
-                    <img src="/img/UI_UX.svg" alt="UI/UX Icon">
-                    <h3>UI/UX Design</h3>
-                    <p>I have a passion for expressive typography and perfectly color-balanced designs. Fueled by curiosity, I design delightful experiences.</p>
-                </div>
-            </div>
-
-            <div class="skillTextBox">
-                <div class="skillText">
-                    <h3>What I Can Do To Help Build Your Product</h3>
-                    <p>As a rare designer-developer hybrid, I understand both the visual, experimental and functional aspect of creating for the web. My mission is to bring more beauty, creativity and good ideas into the world through web design.</p>
-                </div>
-                <div class="progressBox">
-                    <div class="skillCompletion">
-                        <img src="/img/My-final-Image.png" alt="Roqib Avatar">
-                        <div class="skillCompletionName">
-                            <h6>Yusuf Roqib</h6>
-                            <p>Web Designer</p>
+      <!-- MY PROJECTS LIST SECTON -->
+      <section class="myProjects" id="projects">
+        <h1>PROJECTS</h1>
+        <div class="projectSlides">
+          <div class="fullProjectSlide">
+            <div class="projectSlideBox">
+              <nav class="projectButtons">
+                <ul>
+                  <li>
+                    <div class="item-container">
+                      <a
+                        href="https://yusuf-roqib.vercel.app"
+                        target="_blank"
+                        class="forLink"
+                      >
+                        <div class="item-top">
+                          <ion-icon
+                            class="linksIcon"
+                            name="link-outline"
+                          ></ion-icon>
                         </div>
+                      </a>
+                      <a
+                        href="https://yusuf-roqib.vercel.app"
+                        target="_blank"
+                        class="forLink"
+                        ><div class="item-bottom">Take Me There!</div>
+                      </a>
                     </div>
-                    <hr>
-                    <div class="progressPercent">
-                        <div class="progress">
-                            <h3>+52.5%</h3>
-                            <p>Tasks finished</p>
+                  </li>
+                  <li>
+                    <div class="item-container">
+                      <a
+                        href="https://github.com/yusufroqib/Revolut-Clone"
+                        target="_blank"
+                        class="forLink"
+                      >
+                        <div class="item-top">
+                          <ion-icon
+                            class="linksIcon"
+                            name="logo-github"
+                          ></ion-icon>
                         </div>
-                        <div class="progress">
-                            <h3>+67.5%</h3>
-                            <p>Progress speed</p>
-                        </div>
+                      </a>
+                      <a
+                        href="https://github.com/yusufroqib/Revolut-Clone"
+                        target="_blank"
+                        class="forGit"
+                        ><div class="item-bottom">Check GitHub Repository</div>
+                      </a>
                     </div>
-                </div>
+                  </li>
+                </ul>
+              </nav>
+              <div>
+                <img src="/img/revolutImg.svg" alt="Revolut image"
+                />
+              </div>
             </div>
-        </section>
+            <figcaption class="projectCaption">
+              <h4>REVOLUT CLONE</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam, itaque officiis! Aut illum saepe accusantium
+                voluptatem harum atque magnam necessitatibus praesentium, at,
+                eligendi minima iusto commodi eaque non, quasi impedit.
+              </p>
+            </figcaption>
+          </div>
 
-<!-- MY PROJECTS LIST SECTON -->
-        <section class="myProjects" id="projects">
-            <h1>PROJECTS</h1>
-            <div class="projectSlides">
-                <div class="fullProjectSlide">
-                    <div class="projectSlideBox">
-                        <nav class="projectButtons">
-                            <ul>
-                                <li>
-                                    <div class="item-container">
-                                        <a href="https://yusuf-roqib.vercel.app" target="_blank" class="forLink">
-                                            <div class="item-top"><ion-icon class="linksIcon" name="link-outline"></ion-icon></div>
-                                        </a>
-                                        <a href="https://yusuf-roqib.vercel.app" target="_blank" class="forLink"><div class="item-bottom">Take Me There!</div>
-                                        </a>
-                                      </div>
-                                </li>
-                                <li>
-                                  <div class="item-container">
-                                    <a href="https://github.com/yusufroqib/Revolut-Clone" target="_blank" class="forLink">
-                                        <div class="item-top"><ion-icon class="linksIcon" name="logo-github"></ion-icon></div>
-                                    </a>
-                                    <a href="https://github.com/yusufroqib/Revolut-Clone" target="_blank" class="forGit"><div class="item-bottom">Check GitHub Repository</div>
-                                    </a>
-                                  </div>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div>
-                            <a href="https://revolut-dlt.netlify.app" target="_blank"><img src="/img/revolutImg.svg" alt="Revolut image"></a>
-                            
+          <div class="fullProjectSlide">
+            <div class="projectSlideBox">
+              <nav class="projectButtons">
+                <ul>
+                  <li>
+                    <div class="item-container">
+                      <a
+                        href="https://yusuf-roqib.vercel.app"
+                        target="_blank"
+                        class="forLink"
+                      >
+                        <div class="item-top">
+                          <ion-icon
+                            class="linksIcon"
+                            name="link-outline"
+                          ></ion-icon>
                         </div>
+                      </a>
+                      <a
+                        href="https://yusuf-roqib.vercel.app"
+                        target="_blank"
+                        class="forLink"
+                        ><div class="item-bottom">Take Me There!</div>
+                      </a>
                     </div>
-                    <figcaption>REVOLUT CLONE</figcaption>
-                </div>
-                
-                <div class="fullProjectSlide">
-                    <div class="projectSlideBox">
-                        <nav class="projectButtons">
-                            <ul>
-                                <li>
-                                   <div class="item-container">
-                                        <a href="https://yusuf-roqib.vercel.app" target="_blank" class="forLink">
-                                            <div class="item-top"><ion-icon class="linksIcon" name="link-outline"></ion-icon></div>
-                                        </a>
-                                        <a href="https://yusuf-roqib.vercel.app" target="_blank" class="forLink"><div class="item-bottom">Take Me There!</div>
-                                        </a>
-                                      </div>
-                                </li>
-                                <li>
-                                  <div class="item-container">
-                                    <a href="https://github.com/yusufroqib/Revolut-Clone" target="_blank" class="forLink">
-                                        <div class="item-top"><ion-icon class="linksIcon" name="logo-github"></ion-icon></div>
-                                    </a>
-                                    <a href="https://github.com/yusufroqib/Revolut-Clone" target="_blank" class="forGit"><div class="item-bottom">Check GitHub Repository</div>
-                                    </a>
-                                  </div>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div>
-                            <a href="https://revolut-dlt.netlify.app" target="_blank"><img src="/img/revolutImg.svg" alt="Revolut image"></a>
-                            
+                  </li>
+                  <li>
+                    <div class="item-container">
+                      <a
+                        href="https://github.com/yusufroqib/Revolut-Clone"
+                        target="_blank"
+                        class="forLink"
+                      >
+                        <div class="item-top">
+                          <ion-icon
+                            class="linksIcon"
+                            name="logo-github"
+                          ></ion-icon>
                         </div>
+                      </a>
+                      <a
+                        href="https://github.com/yusufroqib/Revolut-Clone"
+                        target="_blank"
+                        class="forGit"
+                        ><div class="item-bottom">Check GitHub Repository</div>
+                      </a>
                     </div>
-                    <figcaption>REVOLUT CLONE</figcaption>
-                </div>
-                
-                
+                  </li>
+                </ul>
+              </nav>
+              <div>
+               <img src="/img/revolutImg.svg" alt="Revolut image"
+                />
+              </div>
             </div>
-            
-        </section>
-
+            <figcaption class="projectCaption">
+              <h4>REVOLUT CLONE</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam, itaque officiis! Aut illum saepe accusantium
+                voluptatem harum atque magnam necessitatibus praesentium, at,
+                eligendi minima iusto commodi eaque non, quasi impedit.
+              </p>
+            </figcaption>
+          </div>
+        </div>
+      </section>
     </main>
 
-<!-- FOOTER SECTION -->
+    <!-- FOOTER SECTION -->
     <footer>
-        <div class="contactSection" id="myContactForm">
-            <h2>Send me a <span>message</span>, I will be in touch with you shortly.</h2>
+      <div class="contactSection" id="myContactForm">
+        <h2>
+          Send me a <span>message</span>, I will be in touch with you shortly.
+        </h2>
 
-            <form id="contactForm" action="mailto:yusufroqib@gmail.com" method="post" enctype="text/plain">
-                <div class="formTag">
-                        <div class="user-box">
-                        <input type="text" name="usename" required="">
-                        <label class="inputLabel">Your Name</label>
-                      </div>
-                      <div class="user-box">
-                        <input type="email" name="" required="">
-                        <label class="inputLabel emailInput">Enter Your Email Address</label>
-                      </div>
-                      <div class="user-box">
-                        <input type="text" name="" required="">
-                        <label class="inputLabel">Your Subject</label>
-                      </div>
-                      <div></div>
-                      <div class="user-box">
-                        <label class="textAreaLabel" for="">Enter Your Message Below</label>
-                        <textarea  name="message" id="textArea" cols="30" rows="5" required form="contactForm"></textarea>
-                       
-                      </div>
-                    <div class="sendBtnDiv">
-                        <button class="sendBtn"><ion-icon name="mail-outline"></ion-icon>Send Message</button>
-                    </div>
-                      
-                </div>
-        </div>
+        <form
+          id="contactForm"
+          action="mailto:yusufroqib@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="formTag">
+            <div class="user-box">
+              <input type="text" name="usename" required="" />
+              <label class="inputLabel">Your Name</label>
+            </div>
+            <div class="user-box">
+              <input type="email" name="" required="" />
+              <label class="inputLabel emailInput"
+                >Enter Your Email Address</label
+              >
+            </div>
+            <div class="user-box">
+              <input type="text" name="" required="" />
+              <label class="inputLabel">Your Subject</label>
+            </div>
+            <div></div>
+            <div class="user-box">
+              <label class="textAreaLabel" for=""
+                >Enter Your Message Below</label
+              >
+              <textarea
+                name="message"
+                id="textArea"
+                cols="30"
+                rows="5"
+                required
+                form="contactForm"
+              ></textarea>
+            </div>
+            <div class="sendBtnDiv">
+              <button class="sendBtn">
+                <ion-icon name="mail-outline"></ion-icon>Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
 
-<!-- SOCIAL MEDIA ICONS -->
-        <div class="myIcons">
-            <a href="https://www.facebook.com/yusufroqib" target="_blank"><ion-icon class="profileIcon" name="logo-facebook"></ion-icon></a>
-            <a href="https://www.twitter.com/rocco4real" target="_blank"><ion-icon class="profileIcon"  name="logo-twitter"></ion-icon></a>
-            <a href="https://github.com/yusufroqib" target="_blank"><ion-icon class="profileIcon"  name="logo-github"></ion-icon></a>
-            <a href="https://www.linkedin.com/in/roqib-yusuf-434ba3193" target="_blank"><ion-icon class="profileIcon"  name="logo-linkedin"></ion-icon></a>
-        </div>
-<!-- COPYRIGHT  -->
-        <div class="copyright">
-            <p>&copy 2023   Yusuf Roqib.    All Rights Reserved</p>
-        </div> 
+      <!-- SOCIAL MEDIA ICONS -->
+      <div class="myIcons">
+        <a href="https://www.facebook.com/yusufroqib" target="_blank"
+          ><ion-icon class="profileIcon" name="logo-facebook"></ion-icon
+        ></a>
+        <a href="https://www.twitter.com/rocco4real" target="_blank"
+          ><ion-icon class="profileIcon" name="logo-twitter"></ion-icon
+        ></a>
+        <a href="https://github.com/yusufroqib" target="_blank"
+          ><ion-icon class="profileIcon" name="logo-github"></ion-icon
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/roqib-yusuf-434ba3193"
+          target="_blank"
+          ><ion-icon class="profileIcon" name="logo-linkedin"></ion-icon
+        ></a>
+      </div>
+      <!-- COPYRIGHT  -->
+      <div class="copyright">
+        <p>&copy 2023 Yusuf Roqib. All Rights Reserved</p>
+      </div>
     </footer>
 
-<!-- ALL SCRIPTS USED  -->
+    <!-- ALL SCRIPTS USED  -->
     <script src="/js/script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

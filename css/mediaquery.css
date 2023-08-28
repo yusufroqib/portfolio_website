@@ -323,6 +323,10 @@
   }
 
   /* MY PROJECTS LIST */
+
+  .fullProjectSlide{
+    width: 350px;
+  }
   .myProjects#projects {
     height: auto;
     background-size: contain;
@@ -672,6 +676,10 @@
   }
 
   /* MY PROJECTS LIST  */
+  .fullProjectSlide{
+    width: 19.5rem;
+  }
+
   .myProjects#projects {
     height: auto;
     background-size: contain;
@@ -1115,10 +1123,10 @@
   .myProjects#projects h1 {
     font-size: 1.8rem;
   }
-/* 
-  .myProjects#projects div {
-    margin-top: 1.3rem;
-  } */
+
+  .fullProjectSlide{
+    width: 15.5rem;
+  }
 
   .myProjects#projects div img {
     width: 15.5rem;
