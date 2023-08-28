@@ -772,16 +772,16 @@
     gap: 3rem;
   }
 
-  .myIcons a .profileIcon:hover,
-  .myIcons a .profileIcon:active {
-    height: 2.5rem;
-    width: 2.5rem;
-  }
-
   .myIcons a .profileIcon {
     height: 1.5rem;
     width: 1.5rem;
     position: absolute;
+  }
+
+  .myIcons a .profileIcon:hover,
+  .myIcons a .profileIcon:active {
+    height: 1.5rem;
+    width: 1.5rem;
   }
 
   .copyright {
@@ -1207,8 +1207,8 @@
 
   .myIcons a .profileIcon:hover,
   .myIcons a .profileIcon:active {
-    height: 2.6rem;
-    width: 2.6rem;
+    height: 1.3rem;
+    width: 1.3rem;
   }
 
   .myIcons a .profileIcon {
@@ -1567,8 +1567,8 @@
 
   .myIcons a .profileIcon:hover,
   .myIcons a .profileIcon:active {
-    height: 2.6rem;
-    width: 2.6rem;
+    height: 1.3rem;
+    width: 1.3rem;
   }
 
   .myIcons a .profileIcon {
@@ -1758,7 +1758,7 @@
   }
 }
 
-/* FOR EXTRA SMALL SCREENS */
+/******************* FOR MOBILE SMALL SCREENS *******************************/
 
 @media (max-width: 360px) {
   .heroSection h2 {
@@ -1860,13 +1860,13 @@
     gap: 2rem;
   }
 
-  .myIcons a .profileIcon:hover,
-  .myIcons a .profileIcon:active {
-    height: 1.5rem;
-    width: 1.5rem;
+  .myIcons a .profileIcon {
+    height: 1rem;
+    width: 1rem;
   }
 
-  .myIcons a .profileIcon {
+  .myIcons a .profileIcon:hover,
+  .myIcons a .profileIcon:active {
     height: 1rem;
     width: 1rem;
   }

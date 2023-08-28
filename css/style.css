@@ -874,16 +874,16 @@ textarea:focus {
   /* margin-right: 2rem; */
 }
 
-.myIcons a .profileIcon:hover,
-.myIcons a .profileIcon:active {
-  height: 2.5rem;
-  width: 2.5rem;
-}
-
 .myIcons a .profileIcon {
   height: 2rem;
   width: 2rem;
   position: absolute;
+}
+
+.myIcons a .profileIcon:hover,
+.myIcons a .profileIcon:hover {
+  height: 2rem;
+  width: 2rem;
 }
 
 .copyright {
