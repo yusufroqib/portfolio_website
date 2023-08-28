@@ -1,6 +1,6 @@
 
 /********** TO DISABLE HOVER EFFECTS ON DEVICES THAT DOES NOT HAVE HOVER CAPABILITY **********************/
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
 
   .navigationLink .navLinks:hover .nav--item__border {
     max-width: 100%;
