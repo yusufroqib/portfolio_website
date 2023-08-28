@@ -15,7 +15,6 @@ html {
 body {
   background-color: #f2f2f2;
   font-family: "Poppins", sans-serif;
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -26,7 +25,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  place-items: center;
   background: linear-gradient(214deg, #181e41 0%, #b499df 100%);
   width: 100%;
   height: 134px;
@@ -35,6 +33,7 @@ body {
   padding: 47px 115px;
   z-index: 1;
   box-shadow: 0px 0.15rem 0.1rem rgba(0, 0, 0, 0.4);
+  font-size: 20px;
 }
 
 .header .logo {
@@ -53,7 +52,6 @@ body {
   display: flex;
   place-items: center;
   justify-content: center;
-  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -61,7 +59,6 @@ body {
 
 .header .logo h3 {
   color: #f6f6f6;
-  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -318,6 +315,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 8rem;
   position: relative;
+  
 }
 
 .heroSection .myImageCon h3 {
@@ -359,7 +357,7 @@ body {
   position: absolute;
   width: 300px;
   height: 300px;
-  z-index: -1;
+  z-index: 0;
   transform-style: preserve-3d;
   transform: perspective(700px) rotateX(60deg);
 }
@@ -679,13 +677,19 @@ body {
 
 
 /* MT PROJECTS LIST SECTION */
+
+#projects{
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
 .myProjects#projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
   place-items: center;
   width: 100%;
-  height: 40rem;
+  height: auto;
   background-color: #181e41;
   background-image: url(/img/bottomBG.svg);
   background-position: left;
@@ -700,32 +704,104 @@ body {
   font-weight: 700;
   line-height: 120%; /* 3rem */
   letter-spacing: 0.01875rem;
+  margin-bottom: 3rem;
 }
-
-.myProjects#projects div {
-  margin-top: 3rem;
-  position: relative;
+.projectSlides {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+justify-content: space-around;
 }
 
 .myProjects#projects div img {
   width: 100%;
 }
 
-.myProjects div:hover,
+.projectButtons ul {
+  list-style: none;
+}
+
+.projectSlideBox{
+  position: relative;
+}
+.projectSlideBox nav {
+  font-size: 13px;
+  /* font:700 16px/40px; */
+  width:100%;
+  margin: 0 auto 0 auto;
+  background:#242424;
+  overflow:hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+.projectSlideBox nav ul {
+  height:40px;
+  overflow:hidden;
+}
+
+.projectSlideBox nav ul li {
+  width:50%;
+  float:left;
+  text-align:center;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: list-item;
+}
+
+.item-container {
+  top: 0;
+  position:relative;
+  height:80px;
+  cursor:pointer;
+  -webkit-transition: all 0.3s ease;
+	-moz-transition:  	all 0.3s ease;
+	-o-transition:  	  all 0.3s ease;
+	transition: 		    all 0.3s ease;
+}
+.item-container div {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.item-container:hover{
+  top:-40px;
+}
+
+.item-top,
+.item-bottom {
+  height:40px;
+  position:relative;
+}
+
+.item-top {
+  color:#797979;
+}
+
+.item-bottom {
+  background:#191919;
+  color:#ffffff;
+}
+
+
+/* .myProjects div:hover,
 .myProjects div:active {
   animation: hover-effect 0.1s infinite;
   animation-direction: alternate;
-}
+} */
 
 /* TRANSITION FOR MY PROJECTS HOVER EFFECT */
-@keyframes hover-effect {
+/* @keyframes hover-effect {
   from {
     left: 20px;
   }
   to {
     left: 23px;
   }
-}
+} */
 
 .myProjects div figcaption {
   color: #f6f6f6;

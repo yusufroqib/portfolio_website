@@ -11,6 +11,7 @@
   .aboutMe {
     margin-left: 3rem;
   }
+
   .aboutSection .aboutDetails {
     margin-left: 6rem;
   }
@@ -145,7 +146,7 @@
 
   /* MY PROJECTS LIST */
   .myProjects#projects {
-    height: 33rem;
+    height: auto;
     background-size: contain;
   }
 }
@@ -323,7 +324,7 @@
 
   /* MY PROJECTS LIST */
   .myProjects#projects {
-    height: 33rem;
+    height: auto;
     background-size: contain;
   }
 
@@ -672,7 +673,7 @@
 
   /* MY PROJECTS LIST  */
   .myProjects#projects {
-    height: 23.2rem;
+    height: auto;
     background-size: contain;
   }
 
@@ -680,9 +681,9 @@
     font-size: 1.6rem;
   }
 
-  .myProjects#projects div {
+  /* .myProjects#projects div {
     margin-top: 1.68rem;
-  }
+  } */
 
   .myProjects#projects div img {
     width: 19.5rem;
@@ -1107,17 +1108,17 @@
 
   /* MY PROJECTS LIST SECTION*/
   .myProjects#projects {
-    height: 23.2rem;
+    height: auto;
     background-size: contain;
   }
 
   .myProjects#projects h1 {
     font-size: 1.8rem;
   }
-
+/* 
   .myProjects#projects div {
     margin-top: 1.3rem;
-  }
+  } */
 
   .myProjects#projects div img {
     width: 15.5rem;
@@ -1495,7 +1496,7 @@
 
   /* MY PROJECT LIST SECTION */
   .myProjects#projects {
-    height: 19rem;
+    height: auto;
     background-image: none;
   }
 
