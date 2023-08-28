@@ -1192,7 +1192,6 @@
     align-items: center;
     gap: 0.5rem;
     border-radius: 1.5rem;
-    /* background: linear-gradient(214deg, #B75CFF 0%, #671AE4 100%); */
     background-image: linear-gradient(
       to right,
       #b75cff,
@@ -1200,7 +1199,6 @@
       #6b8dd6,
       #8e37d7
     );
-    /* box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75); */
     background-size: 300% 100%;
     cursor: pointer;
   }
