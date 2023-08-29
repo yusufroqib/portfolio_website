@@ -830,6 +830,7 @@ font-size: 1.5rem;
 .projectCaption p {
   margin-top: 0.15rem;
   font-size: 0.9rem;
+  opacity: 0.7;
 }
 
 /**** FOOTER SECTION ****/
