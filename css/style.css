@@ -727,6 +727,10 @@ justify-content: space-around;
 
 .fullProjectSlide{
   width: 20rem;
+  background-color: #181e41;
+  
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem; 
 }
 
 .projectSlideBox{
@@ -762,7 +766,7 @@ justify-content: space-around;
 }
 
 .linksIcon {
-font-size: 2rem;
+font-size: 1.5rem;
 }
 
 
@@ -806,20 +810,26 @@ font-size: 2rem;
   font-size: 0.8rem;
   font-weight: 300;
   letter-spacing: 0.01875rem;
+  height: 14.5rem;
   margin-top: 0.5rem;
   text-align: center;
   background-color: #1c1c1c;  
   padding: 0.3rem;
   border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-  
+  border-bottom-right-radius: 1.5rem;  
   border-bottom: 4px solid #00aeff;
   border-right: 4px solid #00aeff;
   border-left: 4px solid #00aeff;
 }
 
+.projectCaption h4 {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
 .projectCaption p {
-  margin-top: 0.5rem;
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
 }
 
 /**** FOOTER SECTION ****/
