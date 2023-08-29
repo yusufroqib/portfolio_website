@@ -147,8 +147,7 @@
   /* MY PROJECTS LIST */
   .myProjects#projects {
     height: auto;
-    background-size: contain;
-  }
+    background-size: 50% 100%;  }
 }
 
 /*********************** FOR 1280PX SCREENS (AVERAGE LAPTOP SCREEN) **************/
@@ -329,8 +328,7 @@
   }
   .myProjects#projects {
     height: auto;
-    background-size: contain;
-  }
+    background-size: 50% 100%;  }
 
   .myProjects#projects h1 {
     font-size: 2.2rem;
@@ -682,8 +680,8 @@
 
   .myProjects#projects {
     height: auto;
-    background-size: contain;
-  }
+    background-size: 100% 100%;
+    }
 
   .myProjects#projects h1 {
     font-size: 1.6rem;
@@ -1117,8 +1115,8 @@
   /* MY PROJECTS LIST SECTION*/
   .myProjects#projects {
     height: auto;
-    background-size: contain;
-  }
+    background-size: 100% 100%;
+    }
 
   .myProjects#projects h1 {
     font-size: 1.8rem;
