@@ -324,7 +324,7 @@
   /* MY PROJECTS LIST */
 
   .fullProjectSlide{
-    width: 350px;
+    width: 18rem;
   }
   .myProjects#projects {
     height: auto;
@@ -334,9 +334,16 @@
     font-size: 2.2rem;
   }
 
-  .myProjects#projects div img {
-    width: 350px;
+  .myProjects#projects .projectSlideBox img {
+    width: 100%;
   }
+
+  .projectCaption p {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  line-height: 160%;
+  opacity: 0.7;
+}
 
   /* FOOTER SECTION */
   footer h2 {
@@ -691,13 +698,29 @@
     margin-top: 1.68rem;
   } */
 
-  .myProjects#projects div img {
-    width: 19.5rem;
-  }
+  
+.fullProjectSlide{
+  width: 14rem; 
+}
 
+  .myProjects#projects .projectSlideBox .projectImg {
+    width: 100%;
+  }
+/* 
   .myProjects div figcaption {
     font-size: 0.8rem;
-  }
+  } */
+
+
+.projectCaption h4 {
+  font-size: 0.9rem;
+}
+
+  .projectCaption p {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
 
   /* FOOTER SECTION */
   footer {
@@ -800,9 +823,14 @@
   }
 }
 
-/****************************************** SCREEN FOR BIG TABLETS AND MINI LAPTOPS*********************************/
+/****************************************** FOR 790PX SCREEN FOR BIG TABLETS AND MINI LAPTOPS*********************************/
 @media (max-width: 790px) {
   /* HEADER */
+  .header {
+padding-left: 40px;  
+padding-right: 40px;
+}
+
   .navigation {
     display: none;
   }
@@ -1122,8 +1150,14 @@
     font-size: 1.8rem;
   }
 
+  .projectSlides {
+    column-gap: 3rem;
+    row-gap: 4rem;
+    justify-content: center;
+  }
+
   .fullProjectSlide{
-    width: 15.5rem;
+    width: 16rem;
   }
 
   .myProjects#projects div img {
@@ -1132,7 +1166,15 @@
 
   .myProjects div figcaption {
     font-size: 0.7rem;
+    height: 14rem;
   }
+
+  .projectCaption p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  line-height: 140%;
+  opacity: 0.7;
+}
 
   /* FOOTER SECTION */
   footer {
