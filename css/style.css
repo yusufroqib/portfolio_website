@@ -706,11 +706,12 @@ padding-bottom: 3rem;
   letter-spacing: 0.01875rem;
   margin-bottom: 3rem;
 }
+
 .projectSlides {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
 .myProjects#projects .projectSlideBox .projectImg {
