@@ -2,7 +2,7 @@
 @media (max-width: 1450px) {
   /* ABOUT SECTION */
   .aboutCon {
-    padding: 5.62rem 7.62rem 0;
+    padding: 3.62rem 7.62rem 0;
     gap: 2.94rem;
     justify-content: center;
   }
@@ -184,7 +184,7 @@
   }
 
   .aboutCon {
-    padding: 5.62rem 7.62rem 0;
+    padding: 3.62rem 7.62rem 0;
     gap: 2.94rem;
     justify-content: center;
   }
@@ -534,7 +534,7 @@
   }
 
   .aboutCon {
-    padding: 3.26rem 6rem 0;
+    padding: 1.5rem 6rem 0;
     gap: 2.64rem;
     justify-content: center;
     position: relative;
@@ -557,16 +557,19 @@
     margin-bottom: 0.7rem;
   }
 
+
   .aboutSection .aboutDetails h3 {
     font-size: 1.5rem;
   }
 
   .aboutSection .aboutDetails ul {
-    gap: 2.81rem;
-    font-size: 1.3rem;
-    margin-left: 1.4rem;
+    gap: 4.81rem;
+    
   }
 
+  .aboutSection .aboutDetails ul li img {
+  width: 50px;
+}
   .achievements {
     justify-content: space-evenly;
     gap: 0;
@@ -966,7 +969,7 @@
   }
 
   .aboutCon {
-    padding: 3.26rem 6rem 0;
+    padding: 2rem 6rem 0;
     gap: 1rem;
     justify-content: center;
     position: relative;
@@ -994,9 +997,7 @@
   }
 
   .aboutSection .aboutDetails ul {
-    gap: 2.81rem;
-    font-size: 1rem;
-    margin-left: 1.4rem;
+    gap: 3rem;
     margin-top: 0.3rem;
   }
 
@@ -1357,7 +1358,7 @@
 
   .aboutCon {
     flex-direction: column;
-    padding: 3rem 0 0;
+    padding: 1.5rem 0 0;
     gap: 1rem;
     justify-content: center;
     position: relative;
@@ -1389,9 +1390,9 @@
 
   .aboutSection .aboutDetails ul {
     gap: 2.5rem;
-    font-size: 1.2rem;
-    margin-left: 1.4rem;
     margin-top: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .achievements {
@@ -1708,12 +1709,12 @@
 
   /* ABOUT SECTION  */
   .aboutSection {
-    height: 20.5rem;
+    height: 21rem;
   }
 
   .aboutCon {
     flex-direction: column;
-    padding: 2rem 0 0;
+    padding: 1.5rem 0 0;
     gap: 0.5rem;
     justify-content: center;
     position: relative;
@@ -1736,13 +1737,16 @@
   }
 
   .aboutSection .aboutDetails ul {
-    gap: 2.3rem;
+    gap: 3.3rem;
     font-size: 0.93rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.3rem;
   }
 
+  .aboutSection .aboutDetails ul li img {
+  width: 40px;
+}
   .achievements {
     justify-content: space-evenly;
     gap: 0;
@@ -1872,7 +1876,7 @@
 
   /* ABOUT SECTION */
   .aboutSection {
-    height: 28.5rem;
+    height: 22.5rem;
   }
 
   .aboutSection .aboutDetails p {
@@ -1883,10 +1887,8 @@
   }
 
   .aboutSection .aboutDetails ul {
-    flex-direction: column;
-    gap: 1rem;
-    font-size: 1rem;
-    margin-top: 0.7rem;
+    flex-direction: row;
+    gap: 2rem;
   }
 
   .achievements {
