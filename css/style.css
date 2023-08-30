@@ -929,6 +929,7 @@ input:focus {
   border-bottom: 1px solid #03e9f4;
 }
 
+
 textarea:valid,
 textarea:focus {
   border-bottom: 3px solid #03e9f4;
@@ -971,25 +972,40 @@ textarea:focus {
   outline: none;
 }
 
+form:invalid .sendBtn {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
 /* MY SOCIAL MEDIA LINKS */
 .myIcons {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
   margin-bottom: 4rem;
-  gap: 4rem;
+  /* gap: 0rem; */
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.iconCon {
+  position: absolute;
+  display: flex;
+  gap: 2rem;
 }
 
 .myIcons a:link,
 .myIcons a:visited {
   color: white;
-  position: relative;
+  margin: 0 auto;
 }
 
 .myIcons a .profileIcon {
   height: 2rem;
   width: 2rem;
-  position: absolute;
+  transition:  all 0.5s ease;
 }
 
 .myIcons a .profileIcon:hover,

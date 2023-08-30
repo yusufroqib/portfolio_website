@@ -822,13 +822,15 @@
   .myIcons {
     margin-top: 3rem;
     margin-bottom: 2.5rem;
-    gap: 3rem;
+  }
+
+  .iconCon {
+    gap: 1.5rem;
   }
 
   .myIcons a .profileIcon {
     height: 1.5rem;
     width: 1.5rem;
-    position: absolute;
   }
 
   .myIcons a .profileIcon:hover,
@@ -1274,7 +1276,6 @@
   .myIcons {
     margin-top: 3rem;
     margin-bottom: 2.5rem;
-    gap: 2.5rem;
   }
 
   .myIcons a .profileIcon:hover,
@@ -1286,7 +1287,6 @@
   .myIcons a .profileIcon {
     height: 1.3rem;
     width: 1.3rem;
-    position: absolute;
   }
 
   .copyright {
@@ -1668,7 +1668,6 @@
   .myIcons a .profileIcon {
     height: 1.3rem;
     width: 1.3rem;
-    position: absolute;
   }
 
   .copyright {
@@ -1980,7 +1979,10 @@
   .myIcons {
     margin-top: 3rem;
     margin-bottom: 0rem;
-    gap: 2rem;
+  }
+
+  .iconCon {
+    gap: 1rem;
   }
 
   .myIcons a .profileIcon {
