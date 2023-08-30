@@ -897,6 +897,7 @@ textarea {
 
 textarea {
   border-right: 1px solid #fff;
+  margin-bottom: 0;
 }
 
 .inputLabel {
@@ -939,6 +940,9 @@ textarea:focus {
 .sendBtnDiv {
   width: 24.32rem;
   margin-top: 4.5rem;
+  position: relative;
+  margin-top: auto;
+  bottom: 0;
 }
 
 .sendBtn {

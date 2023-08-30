@@ -388,6 +388,10 @@
     margin-bottom: 25px;
   }
 
+  textarea {
+    margin-bottom: 0;
+  }
+
   .inputLabel {
     font-size: 18px;
   }
@@ -413,7 +417,6 @@
 
   .sendBtnDiv {
     width: 20.32rem;
-    margin-top: 3rem;
   }
 
   .sendBtn {
@@ -745,7 +748,7 @@
 
   /* FOOTER SECTION */
   footer {
-    height: 42rem;
+    height: 43rem;
   }
   footer h2 {
     font-size: 1.875rem;
@@ -774,6 +777,9 @@
     margin-bottom: 25px;
   }
 
+  textarea {
+    margin-bottom: 0;
+  }
   .inputLabel {
     font-size: 15px;
   }
@@ -799,7 +805,6 @@
 
   .sendBtnDiv {
     width: 20.32rem;
-    margin-top: 3rem;
   }
 
   .sendBtn {
@@ -1228,6 +1233,10 @@
     margin-bottom: 25px;
   }
 
+  textarea {
+    margin-bottom: 0;
+  }
+
   .inputLabel {
     font-size: 12px;
   }
@@ -1253,7 +1262,6 @@
 
   .sendBtnDiv {
     width: 18rem;
-    margin-top: 3rem;
   }
 
   .sendBtn {
@@ -1592,7 +1600,7 @@
 
   /* FOOTER SECTION */
   footer {
-    height: 50rem;
+    height: 55rem;
   }
 
   footer h2 {
@@ -1846,7 +1854,7 @@
 
   /* FOOTER SECTION */
   footer {
-    height: 50rem;
+    height: 54rem;
   }
 
   footer h2 {
@@ -1949,7 +1957,7 @@
 
   /* FOOTER SECTION */
   footer {
-    height: 46rem;
+    height: 50rem;
   }
 
   footer h2 {
