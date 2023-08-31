@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #e2e2e7;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
@@ -373,7 +373,7 @@ transition: 3s;
 }
 
 .imageHover:hover {
-background: #f2f2f2;
+background: #e2e2e7;
 opacity: 0.8;
 }
 
