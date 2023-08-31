@@ -402,13 +402,14 @@
   }
 
   input:focus ~ .inputLabel,
-  input:valid ~ .inputLabel {
-    top: -20px;
-    left: 0;
-    color: #03e9f4;
+  input:not(.phoneInput):valid ~ .inputLabel {
     font-size: 10px;
   }
 
+  .phoneInput:not(:placeholder-shown) ~ .inputLabel {
+    font-size: 10px;
+  }
+  
   textarea:valid,
   textarea:focus {
     border-bottom: 2px solid #03e9f4;
@@ -790,10 +791,8 @@
   }
 
   input:focus ~ .inputLabel,
-  input:valid ~ .inputLabel {
-    top: -20px;
-    left: 0;
-    color: #03e9f4;
+ input:not(.phoneInput):valid  ~ .inputLabel {
+  
     font-size: 8px;
   }
 
@@ -1247,10 +1246,7 @@
   }
 
   input:focus ~ .inputLabel,
-  input:valid ~ .inputLabel {
-    top: -20px;
-    left: 0;
-    color: #03e9f4;
+  input:not(.phoneInput):valid ~ .inputLabel {
     font-size: 8px;
   }
 
