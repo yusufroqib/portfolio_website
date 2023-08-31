@@ -162,9 +162,15 @@
 /*********************** FOR 1280PX SCREENS (AVERAGE LAPTOP SCREEN) **************/
 @media (max-width: 1280px) {
   /* HERO SECTION */
-  .myImageCon .myPix {
+  /* .myImageCon .myPix {
     width: 350px;
+  } */
+
+  .imageHover {
+    border-radius: 6.2rem;
   }
+
+
   .heroSection h2 {
     margin: 13.875rem auto 0 auto;
     width: 61.8125rem;
@@ -490,9 +496,17 @@
     margin-bottom: 4.6rem;
   }
 
-  .myImageCon .myPix {
+  .overlayName {
     width: 17.25rem;
     height: 24.75rem;
+  }
+
+  .myPix {
+    width: 100%;
+  }
+
+  .imageHover {
+    border-radius: 4.2rem;
   }
 
   .heroSection .myImageCon h3 {
@@ -927,11 +941,14 @@
     margin-bottom: 2.6rem;
   }
 
-  .myImageCon .myPix {
+  .overlayName {
     width: 14rem;
     height: 22rem;
   }
 
+  .imageHover{
+    border-radius: 3.5rem;
+  }
   .heroSection .myImageCon h3 {
     display: flex;
     width: 10rem;
@@ -1337,12 +1354,15 @@
     margin-bottom: 2.6rem;
   }
 
-  .myImageCon .myPix {
+  .overlayName {
     width: 17rem;
     height: 25rem;
     margin-top: 1rem;
   }
 
+  .imageHover{
+    border-radius: 4.2rem;
+  }
   .heroSection .myImageCon .heroUI {
     display: none;
   }
@@ -1704,11 +1724,14 @@
     margin-bottom: 2.6rem;
   }
 
-  .myImageCon .myPix {
+  .overlayName {
     width: 15rem;
     height: 23rem;
     margin-top: 1rem;
   }
+.imageHover{
+  border-radius: 3.75rem;
+}
 
   /* ABOUT SECTION  */
   .aboutSection {
@@ -1871,7 +1894,7 @@
     font-size: 1.2rem;
   }
 
-  .myImageCon .myPix {
+  .overlayName {
     width: 15rem;
     height: 23rem;
     margin-top: 1rem;
