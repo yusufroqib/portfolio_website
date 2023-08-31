@@ -373,7 +373,7 @@ transition: 3s;
 }
 
 .imageHover:hover {
-background: #fff;
+background: #f2f2f2;
 opacity: 0.8;
 }
 
