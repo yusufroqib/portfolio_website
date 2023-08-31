@@ -991,7 +991,7 @@ textarea:focus {
 }
 
 form:invalid .sendBtn {
-  opacity: 0.4;
+  opacity: 0.3;
   pointer-events: none;
 }
 
