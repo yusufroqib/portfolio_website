@@ -917,19 +917,33 @@ textarea {
   font-size: 20px;
 }
 
+/* EXCEPT .phoneInput CLASS  */
 input:focus ~ .inputLabel,
-input:valid ~ .inputLabel {
+input:not(.phoneInput):valid ~ .inputLabel {
   top: -20px;
   left: 0;
   color: #03e9f4;
   font-size: 12px;
 }
 
-input:valid,
+/* EXCEPT .phoneInput CLASS  */
+input:not(.phoneInput):valid,
 input:focus {
   border-bottom: 1px solid #03e9f4;
 }
 
+/* WHEN THE PHONE NUMBER .phoneInput FIELD HAS CONTENT IN IT (i.e placeholder not shown) */
+.phoneInput:not(:placeholder-shown) ~ .inputLabel {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+/* WHEN THE PHONE NUMBER FIELD HAS CONTENT IN IT  */
+.phoneInput:not(:placeholder-shown) {
+  border-bottom: 1px solid #03e9f4;
+}
 
 textarea:valid,
 textarea:focus {
@@ -980,6 +994,7 @@ form:invalid .sendBtn {
   opacity: 0.2;
   pointer-events: none;
 }
+
 
 /* MY SOCIAL MEDIA LINKS */
 .myIcons {
