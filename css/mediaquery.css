@@ -161,13 +161,8 @@
 
 /*********************** FOR 1280PX SCREENS (AVERAGE LAPTOP SCREEN) **************/
 @media (max-width: 1280px) {
-  /* HERO SECTION */
-  /* .myImageCon .myPix {
-    width: 350px;
-  } */
-
-  .imageHover {
-    border-radius: 6.2rem;
+  .overlayName {
+    width: 28rem;
   }
 
 
@@ -497,17 +492,17 @@
   }
 
   .overlayName {
-    width: 17.25rem;
-    height: 24.75rem;
+    width: 20rem;
+    height: auto
   }
 
   .myPix {
     width: 100%;
   }
 
-  .imageHover {
+  /* .imageHover {
     border-radius: 4.2rem;
-  }
+  } */
 
   .heroSection .myImageCon h3 {
     display: flex;
@@ -942,23 +937,28 @@
   }
 
   .overlayName {
-    width: 14rem;
-    height: 22rem;
+    width: 18rem;
+    /* height: 22rem; */
+  }
+
+  .myPix {
+    border-radius: 3rem;
   }
 
   .imageHover{
-    border-radius: 3.5rem;
+    border-radius: 3rem;
   }
+
   .heroSection .myImageCon h3 {
     display: flex;
-    width: 10rem;
-    height: 4.25rem;
-    padding: 0.5rem 0.8rem;
+    width: 8rem;
+    height: 3rem;
+    padding: 0.5rem 0.5rem;
     justify-content: center;
     align-items: center;
-    gap: 0.362rem;
+    gap: 0;
     font-size: 0.8rem;
-    border-radius: 5.5rem;
+    border-radius: 2rem;
   }
 
   .heroSection .myImageCon .heroUI {
@@ -1355,14 +1355,15 @@
   }
 
   .overlayName {
-    width: 17rem;
-    height: 25rem;
+    width: 22rem;
+    /* height: 25rem; */
     margin-top: 1rem;
   }
 
-  .imageHover{
-    border-radius: 4.2rem;
+  .myPix {
+    border-radius: 4rem;
   }
+
   .heroSection .myImageCon .heroUI {
     display: none;
   }
@@ -1725,13 +1726,14 @@
   }
 
   .overlayName {
-    width: 15rem;
-    height: 23rem;
+    width: 20rem;
+    /* height: 23rem; */
     margin-top: 1rem;
   }
-.imageHover{
-  border-radius: 3.75rem;
-}
+
+  .myPix {
+    border-radius: 3rem;
+  }
 
   /* ABOUT SECTION  */
   .aboutSection {
@@ -1895,9 +1897,17 @@
   }
 
   .overlayName {
-    width: 15rem;
-    height: 23rem;
+    width: 16rem;
+    /* height: 23rem; */
     margin-top: 1rem;
+  }
+
+  .myPix {
+    border-radius: 2rem;
+  }
+
+  .imageHover {
+    border-radius: 0;
   }
 
   /* ABOUT SECTION */
